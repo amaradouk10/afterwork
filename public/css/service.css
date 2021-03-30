@@ -1,0 +1,137 @@
+.pr1{
+    background-color: #6d071a;
+}
+.pr1{
+    background-color: #6d071a;
+}
+.horlo{
+    font-size:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.vert{
+    display: flex;
+    justify-content: center;
+}
+.phone{
+    font-size:50px;
+    color: white;
+}
+nav ul li{
+   
+    line-height: 80px;
+    margin: 0 5px;
+    list-style-type: none;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+a .active,a:hover{
+    transition: all;
+}
+.checkbtn{
+    margin-left: 70px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.img1{
+    justify-content: center;
+}
+.texte{
+    text-align: center;
+    color: white;
+}
+.text{
+  display:flex;
+  justify-content:flex-end ; 
+  color: white; 
+}
+.far{
+    justify-content: center;
+}
+
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+#myinput{
+    border-radius: 15px 15px;
+    width: 150%;
+}
+.fa-search{
+    margin-left: 50px;
+    color: gray;
+}
+.menu-main{
+    width: min-content;
+    height: min-content;
+}
+.menu{
+    display: none;
+    position: absolute;
+    background-color: #6d071a;
+    z-index: 5;
+}
+/*cette section est dédier au pied de page*/
+
+.menu-main:hover .menu{
+     display: block;
+  }
+  .button{
+      height: 30px;
+      width: 100%;
+  }
+  .jour{
+      text-align: center;
+  }
+
+  .piedpage{
+    background-color: #6d071a;
+}
+.logop{
+    text-align: center;
+}
+.textu{
+    display: flex;
+    justify-content: space-between;
+
+}
+.lservi{
+    list-style: none;
+    color: white;
+}
+.lservi li{
+    margin-left:5px ;
+}
+.servi{
+    color: white;
+}
+.servi li{
+    list-style: none;
+    margin-left:5px ;
+}
+
+.icone h5{
+    color: white;
+}
+.iconef{
+    display: flex;
+    color: white;
+    font-size: 30px;
+    justify-content: space-between;
+}
+.iconeg{
+    display: flex;
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    justify-content: space-between;
+}
+/*fin de la section dédier au pied de page*/

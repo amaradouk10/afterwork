@@ -1,0 +1,244 @@
+.pr1{
+    background-color: #6d071a;
+}
+.horlo{
+    font-size:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.Vert{
+    display: flex;
+    justify-content: center;
+}
+.phone{
+    font-size:50px;
+    color: white;
+}
+nav ul li{
+   
+    line-height: 80px;
+    margin: 0 5px;
+    list-style-type: none;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+a .active,a:hover{
+    transition: all;
+}
+.checkbtn{
+    margin-left: 70px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.img1{
+    justify-content: center;
+}
+.texte{
+    text-align: center;
+    color: white;
+}
+.text{
+  display:flex;
+  justify-content:flex-end ; 
+  color: white; 
+}
+.far{
+    justify-content: center;
+}
+
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+#myinput{
+    border-radius: 15px 15px;
+    width: 150%;
+}
+.fa-search{
+    margin-left: 50px;
+    color: gray;
+}
+.menu-main{
+    width: min-content;
+    height: min-content;
+}
+.menu{
+    display: none;
+    position: absolute;
+    background-color: #6d071a;
+    z-index: 5;
+}
+
+.menu-main:hover .menu{
+     display: block;
+  }
+  .button{
+      height: 30px;
+      width: 100%;
+  }
+  .jour{
+      text-align: center;
+  }
+  .presentation{
+      margin-left:70px ;
+      margin-right: 70px;
+      border-bottom: 2px solid  #6d071a;
+  }
+  .carousel {
+      margin-left: 70px ;
+      margin-right: 70px;
+  }
+
+.d-block{
+    height: 350px;
+}
+.para{
+    display: flex;
+    justify-content: left;
+    margin-left:70px ;
+    margin-right: 70px;
+}
+.paragraphe{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left; 
+}
+.albomme{
+    display: column;
+    width: 100%;
+    
+}
+.alignement{
+    display: flex;
+}
+
+.image2{
+    width: 555px;
+}
+.image1{
+    width: 555px;
+}
+.image3{
+    width: 555px;
+    height: 314px;
+}
+.prototype{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.essai{
+    display: flex;
+    width: 90%;
+    border: 2px solid red;
+    height: 350px;
+}
+.foto{
+    width:45%;
+    border-right: 2px solid red;
+    height: 100%;
+}
+.im1{
+    border-bottom:2px solid red;
+}
+.ima1{
+    width: 100%;
+    height: 175px;
+}
+.ima2{
+    width: 100%;
+    height: 175px;
+}
+.tex{
+    text-align: center;
+    width: 100%;
+    height: 175px;
+    border-bottom: 2px solid red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.foto1{
+    width:45%;
+    height: 100%;
+}
+.nos{
+    color:#6d071a ;
+}
+.gineco{
+    display: flex;
+    
+}
+.Docteur{
+    width: 33%;
+    height: 126px;
+}
+.imae1{
+    width: 100%;
+    height: 126px;
+}
+.imae3{
+    width: 100%;
+    height: 126px; 
+}
+.gineci1{
+    display: flex;
+}
+.texti{
+    width: 33%;
+    text-align: center;
+    color: #6d071a;
+}
+.piedpage{
+    background-color: #6d071a;
+}
+.logop{
+    text-align: center;
+}
+.textu{
+    display: flex;
+    justify-content: space-between;
+
+}
+.lservi{
+    list-style: none;
+    color: white;
+}
+.lservi li{
+    list-style: none;
+    margin-left:5px ;
+}
+.servi{
+    color: white;
+}
+.servi li{
+    list-style: none;
+    margin-left:5px ;
+}
+
+.icone h5{
+    color: white;
+}
+.iconef{
+    display: flex;
+    color: white;
+    font-size: 30px;
+    justify-content: space-between;
+}
+.iconeg{
+    display: flex;
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    justify-content: space-between;
+}

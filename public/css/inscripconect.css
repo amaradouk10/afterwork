@@ -1,0 +1,62 @@
+/*inscription ceci est le css de la page inscription*/
+.header{
+
+    height: 15vh;
+}
+.logo{
+    margin-top: 5px;
+    background-size: cover;
+    height: 50px;
+    width: 250px;
+    border: 1px solid #E90505;
+}
+.row{
+    justify-content: center;
+}
+.contenaire{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.submi{
+    margin: 40%;
+}
+.rectangle{
+    width: 50%;
+    border-radius: 20px;
+}
+.rectangle form input{
+    border-radius: 15px;
+}
+.afterwork{
+    color:white;
+}
+.footer{
+    height: 20vh;
+}
+.copyright{
+    color: white;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
+/* Se connecter ceci est le css de la page se connecter*/ 
+
+.carre{
+    border:#a74747 2px solid;
+    width: 100px;
+    background-color: #a74747;
+    border-radius: 25px;
+}
+.incre{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 25px;
+    width: 50%;
+}
+.suivi{
+    display: flex;
+    flex-direction: row;
+}
+
