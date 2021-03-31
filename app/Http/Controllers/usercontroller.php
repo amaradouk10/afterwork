@@ -60,9 +60,10 @@ class usercontroller extends Controller
         if($utilisateurs){
             if(Hash::check($request->password, $utilisateurs->password)){
 
-               if($utilisateurs=='admin'){
+               if($utilisateurs->role=='admin'){
                   return redirect('adminpage');
-               }else{
+               }else
+               {
                    return redirect('reserver');
                }
             }else{

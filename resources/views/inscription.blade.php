@@ -55,7 +55,7 @@
                     <p class="text-center text-light">@error('role') {{ $message }} @enderror</p>
                     <input type="password" name="password" placeholder="password" class=" mt-5 d-block container-fluid">
                     <p class="text-center text-light">@error('password') {{ $message }} @enderror</p>
-                    <input type="submit" placeholder="soumettre" class="rounded btn-light mt-5 submi">
+                    <p class="text-center"><input type="submit" placeholder="soumettre" class="rounded btn-light mt-5 submi"></p>
                 </form>
             </div>
         </div>

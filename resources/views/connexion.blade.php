@@ -31,7 +31,7 @@
                     <img src="font/logo.png" alt="" style="width: 300%; margin-top:150px;">
                 </div>
             </div>
-            <div class="col-lg-5 col-md-6 col-sm-12 carre" style="background-image:linear-gradient(180deg,#E90505, #680000)">
+            <div class="col-lg-5 col-md-12 col-sm-12 carre" style="background-image:linear-gradient(180deg,#E90505, #680000)">
                 <div class="results container-fluid">
                     @if (Session::get('success'))
                         <p class="alert alert-success">
