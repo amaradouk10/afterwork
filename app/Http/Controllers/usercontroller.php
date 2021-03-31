@@ -36,11 +36,11 @@ class usercontroller extends Controller
         $utilisateurs->role=$request->role;
         $utilisateurs->password=Hash::make($request->password);
 
-        // $details=[
-        //     'title'=>'Mail from Simplon',
-        //     'body'=>'verification de mail'
-        // ];
-        // Mail::to($request->mail)->send(new testMail($details));
+        $details=[
+            'title'=>'Mail from Simplon',
+            'body'=>'verification de mail'
+        ];
+        Mail::to($request->mail)->send(new testMail($details));
         $query= $utilisateurs->save();
         if($query){
             return back()->with('success','compte cree avec success veuillez consultez votre boite mail pour confirmer votre email');
