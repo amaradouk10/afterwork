@@ -24,7 +24,7 @@ class AdminController extends Controller
             'title'=>'Mail from Simplon',
             'body'=>'verification de mail'
         ];
-        Mail::to('amaradouk10@gmail.com')->send(new testMail($details));
+        Mail::to($id->mail)->send(new testMail($details));
         return redirect('adminpage');
     }
 
