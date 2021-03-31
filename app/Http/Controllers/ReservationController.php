@@ -6,6 +6,8 @@ use App\Models\utilisateurs;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Models\determiner_place;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\testMail;
 use PhpParser\Node\Expr\New_;
 
 class ReservationController extends Controller
@@ -42,6 +44,12 @@ class ReservationController extends Controller
 }
     public function validereserve($id){
     DB::update('update reservations set statut = \'actif\' where id =?', [$id]);
+    return redirect('adminpage');
+    $details=[
+        'title'=>'Mail from Simplon',
+        'body'=>'verification de mail'
+    ];
+    Mail::to($id->mail)->send(new testMail($details));
     return redirect('adminpage');
 
 }
