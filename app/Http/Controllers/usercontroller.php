@@ -36,11 +36,11 @@ class usercontroller extends Controller
         $utilisateurs->role=$request->role;
         $utilisateurs->password=Hash::make($request->password);
 
-        $details=[
-            'title'=>'Mail from Simplon',
-            'body'=>'verification de mail'
-        ];
-        Mail::to($request->mail)->send(new testMail($details));
+        // $details=[
+        //     'title'=>'Mail from Simplon',
+        //     'body'=>'verification de mail'
+        // ];
+        // Mail::to($request->mail)->send(new testMail($details));
         $query= $utilisateurs->save();
         if($query){
             return back()->with('success','compte cree avec success veuillez consultez votre boite mail pour confirmer votre email');
@@ -60,17 +60,17 @@ class usercontroller extends Controller
         if($utilisateurs){
             if(Hash::check($request->password, $utilisateurs->password)){
 
-               if($utilisateurs->role=='admin'){
-                  return redirect('adminpage');
-               }else
+               if($utilisateurs->role!='admin'){
+                  if($utilisateurs->statut=='actif'){
+                      return redirect('reserver');
+                  }else{return redirect('connexion');}
+                      }else
                {
-                   return redirect('reserver');
+                   return redirect('adminpage');
                }
             }else{
                 return back()->with('fail','mot de passe incorrect');
-
             }
-
         }else{
             return back()->with('fail','compte inexistant');
         }
